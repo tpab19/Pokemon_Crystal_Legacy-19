@@ -533,6 +533,7 @@ VulpixEvosAttacks:
 	db 1, EMBER
 	db 1, TAIL_WHIP
 	db 7, QUICK_ATTACK
+	db 10, HYPNOSIS
 	db 13, ROAR
 	db 16, CONFUSE_RAY
 	db 20, FLAME_WHEEL
@@ -2269,6 +2270,7 @@ ChikoritaEvosAttacks:
 	db 6, RAZOR_LEAF
 	db 9, LEECH_SEED
 	db 12, REFLECT
+	db 14, ROCK_THROW
 	db 15, POISONPOWDER
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
@@ -2290,6 +2292,7 @@ BayleefEvosAttacks:
 	db 15, POISONPOWDER
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
+	db 28, ANCIENTPOWER
 	db 31, BODY_SLAM
 	db 36, GIGA_DRAIN
 	db 41, LIGHT_SCREEN
@@ -2308,6 +2311,7 @@ MeganiumEvosAttacks:
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
+	db 33, ANCIENTPOWER
 	db 36, GIGA_DRAIN
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
@@ -2468,6 +2472,7 @@ NoctowlEvosAttacks:
 	db 28, LIGHT_SCREEN
 	db 32, MIRROR_COAT
 	db 36, TAKE_DOWN
+	db 38, SKY_ATTACK
 	db 40, PSYCHIC_M
 	db 45, DREAM_EATER
 	db 50, FUTURE_SIGHT
@@ -2672,6 +2677,7 @@ XatuEvosAttacks:
 	db 25, PSYBEAM
 	db 30, RECOVER
 	db 35, PSYCHIC_M
+	db 38, SHADOW_BALL
 	db 40, WING_ATTACK
 	db 45, FUTURE_SIGHT
 	db 50, CONFUSE_RAY
@@ -2861,6 +2867,7 @@ SunkernEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 4, GROWTH
+	db 8, LEECH_SEED
 	db 10, MEGA_DRAIN
 	db 15, RAZOR_LEAF
 	db 19, SUNNY_DAY
@@ -2875,6 +2882,7 @@ SunfloraEvosAttacks:
 	db 1, ABSORB
 	db 1, POUND
 	db 1, GROWTH
+	db 1, LEECH_SEED
 	db 10, MEGA_DRAIN
 	db 15, RAZOR_LEAF
 	db 19, SUNNY_DAY
@@ -3139,6 +3147,7 @@ GranbullEvosAttacks:
 	db 19, LICK
 	db 23, RAGE
 	db 28, ROAR
+	db 30, TAKE_DOWN
 	db 39, CRUNCH
 	db 44, THRASH
 	db 0 ; no more level-up moves
@@ -3309,10 +3318,10 @@ PiloswineEvosAttacks:
 	db 21, ICY_WIND
 	db 28, TAKE_DOWN
 	db 33, FURY_ATTACK
-	db 39, EARTHQUAKE
+	db 35, EARTHQUAKE
 	db 42, MIST
-	db 50, BLIZZARD
-	db 55, AMNESIA
+	db 45, BLIZZARD
+	db 50, AMNESIA
 	db 0 ; no more level-up moves
 
 CorsolaEvosAttacks:
@@ -3385,10 +3394,10 @@ SkarmoryEvosAttacks:
 	db 17, SPIKES
 	db 19, SWIFT
 	db 25, AGILITY
-	db 28, WING_ATTACK
+	db 27, WING_ATTACK
 	db 31, STEEL_WING
-	db 37, FURY_ATTACK
-	db 41, DRILL_PECK
+	db 35, DRILL_PECK
+	db 44, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 	HoundourEvosAttacks:
@@ -3437,11 +3446,11 @@ PhanpyEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 7, MUD_SLAP
-	db 9, DEFENSE_CURL
+	db 9, ROLLOUT
 	db 14, MAGNITUDE
 	db 17, FLAIL
 	db 25, TAKE_DOWN
-	db 33, ROLLOUT
+	db 33, BODY_SLAM
 	db 36, ENDURE
 	db 40, EARTHQUAKE
 	db 48, DOUBLE_EDGE
@@ -3456,7 +3465,7 @@ DonphanEvosAttacks:
 	db 14, MAGNITUDE
 	db 17, FLAIL
 	db 25, FURY_ATTACK
-	db 33, ROLLOUT
+	db 33, ROCK_SLIDE
 	db 36, RAPID_SPIN
 	db 40, EARTHQUAKE
 	db 48, DOUBLE_EDGE
