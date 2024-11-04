@@ -194,14 +194,16 @@ ButterfreeEvosAttacks:
 	db 1, CONFUSION
 	db 10, CONFUSION
 	db 12, LEECH_LIFE
-	db 13, POISONPOWDER
-	db 14, STUN_SPORE
+	db 13, MEGA_DRAIN
+	db 14, WING_ATTACK
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
 	db 23, WHIRLWIND
-	db 28, GUST
-	db 34, PSYBEAM
-	db 40, SAFEGUARD
+	db 28, GIGA_DRAIN
+	db 30, PSYBEAM
+	db 34, AGILITY
+	db 38, BATON_PASS
+	db 40, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
@@ -534,14 +536,14 @@ VulpixEvosAttacks:
 	db 1, TAIL_WHIP
 	db 7, QUICK_ATTACK
 	db 10, HYPNOSIS
-	db 13, ROAR
+	db 13, CONFUSION
 	db 16, CONFUSE_RAY
 	db 20, FLAME_WHEEL
 	db 25, SAFEGUARD
 	db 32, FLAMETHROWER
 	db 37, SHADOW_BALL
 	db 40, SUNNY_DAY
-	db 45, FIRE_SPIN
+	db 45, PSYCHIC_M
 	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -557,7 +559,7 @@ NinetalesEvosAttacks:
 	db 32, FLAMETHROWER
 	db 37, SHADOW_BALL
 	db 40, SUNNY_DAY
-	db 45, FIRE_SPIN
+	db 45, PSYCHIC_M
 	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -1131,7 +1133,7 @@ GolemEvosAttacks:
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:
-	db EVOLVE_LEVEL, 40, RAPIDASH
+	db EVOLVE_LEVEL, 34, RAPIDASH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -1141,7 +1143,7 @@ PonytaEvosAttacks:
 	db 20, FLAME_WHEEL
 	db 25, DOUBLE_KICK
 	db 33, FLAMETHROWER
-	db 36, TAKE_DOWN
+	db 33, TAKE_DOWN
 	db 39, FIRE_SPIN
 	db 45, AGILITY
 	db 51, FIRE_BLAST
@@ -1155,13 +1157,13 @@ RapidashEvosAttacks:
 	db 1, EMBER
 	db 17, STOMP
 	db 20, FLAME_WHEEL
-	db 25, DOUBLE_KICK
+	db 22, DOUBLE_KICK
 	db 33, TAKE_DOWN
 	db 36, FLAMETHROWER
-	db 39, FIRE_SPIN
-	db 40, FURY_ATTACK
+	db 39, EXTREMESPEED
+	db 40, MEGAHORN
 	db 45, AGILITY
-	db 51, FIRE_BLAST
+	db 50, BATON_PASS
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1447,10 +1449,10 @@ HypnoEvosAttacks:
 KrabbyEvosAttacks:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0 ; no more evolutions
-	db 1, BUBBLE
+	db 1, CLAMP
 	db 5, LEER
 	db 12, VICEGRIP
-	db 16, HARDEN
+	db 16, BUBBLEBEAM
 	db 23, STOMP
 	db 27, GUILLOTINE
 	db 29, METAL_CLAW
@@ -1465,9 +1467,9 @@ KinglerEvosAttacks:
 	db 1, VICEGRIP
 	db 16, HARDEN
 	db 23, STOMP
-	db 27, CRABHAMMER
-	db 28, METAL_CLAW
-	db 37, PROTECT
+	db 28, CRABHAMMER
+	db 29, METAL_CLAW
+	db 34, ICE_PUNCH
 	db 44, GUILLOTINE
 	db 51, CRABHAMMER
 	db 0 ; no more level-up moves
