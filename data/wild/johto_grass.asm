@@ -1660,18 +1660,18 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
-	db 3, RATTATA
+	db 3, SUNKERN
 	db 2, PHANPY
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, PHANPY
+	db 2, SUNKERN
 	; day
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, PHANPY
-	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, PHANPY
+	db 2, SUNKERN
+	db 2, SUNKERN
 	; nite
 	db 2, GEODUDE
 	db 2, RATTATA
