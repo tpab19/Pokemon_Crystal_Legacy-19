@@ -2540,7 +2540,7 @@ AriadosEvosAttacks:
 	db 12, CONSTRICT
 	db 17, NIGHT_SHADE
 	db 21, TWINEEDLE
-	db 25, FURY_SWIPES
+	db 25, SLUDGE
 	db 33, SPIDER_WEB
 	db 38, GIGA_DRAIN
 	db 43, PSYCHIC_M
@@ -3209,11 +3209,11 @@ HeracrossEvosAttacks:
     db 0 ; no more evolutions
     db 1, TACKLE
     db 1, LEER
-    db 5, PIN_MISSILE
+    db 5, ENDURE
     db 9, HORN_ATTACK
-    db 12, ENDURE
-    db 18, FURY_ATTACK
-	db 25, COUNTER
+    db 12, LEECH_LIFE
+    db 18, COUNTER
+	db 25, PIN_MISSILE
     db 35, TAKE_DOWN
     db 44, REVERSAL
     db 45, MEGAHORN
