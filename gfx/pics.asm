@@ -197,7 +197,6 @@ UmbreonFrontpic:     INCBIN "gfx/pokemon/umbreon/front.animated.2bpp.lz"
 ChikoritaFrontpic:   INCBIN "gfx/pokemon/chikorita/front.animated.2bpp.lz"
 GoldeenFrontpic:     INCBIN "gfx/pokemon/goldeen/front.animated.2bpp.lz"
 EspeonFrontpic:      INCBIN "gfx/pokemon/espeon/front.animated.2bpp.lz"
-XatuFrontpic:        INCBIN "gfx/pokemon/xatu/front.animated.2bpp.lz"
 MewFrontpic:         INCBIN "gfx/pokemon/mew/front.animated.2bpp.lz"
 OctilleryFrontpic:   INCBIN "gfx/pokemon/octillery/front.animated.2bpp.lz"
 JynxFrontpic:        INCBIN "gfx/pokemon/jynx/front.animated.2bpp.lz"
@@ -316,7 +315,6 @@ PinsirBackpic:       INCBIN "gfx/pokemon/pinsir/back.2bpp.lz"
 LassPic:             INCBIN "gfx/trainers/lass.2bpp.lz"
 ClefableBackpic:     INCBIN "gfx/pokemon/clefable/back.2bpp.lz"
 DoduoFrontpic:       INCBIN "gfx/pokemon/doduo/front.animated.2bpp.lz"
-FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 DratiniFrontpic:     INCBIN "gfx/pokemon/dratini/front.animated.2bpp.lz"
 MagnetonBackpic:     INCBIN "gfx/pokemon/magneton/back.2bpp.lz"
 QwilfishFrontpic:    INCBIN "gfx/pokemon/qwilfish/front.animated.2bpp.lz"
@@ -717,6 +715,10 @@ OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
 PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 ArcherPic:      	 INCBIN "gfx/trainers/archer.2bpp.lz"
 PkmnTrainerFPic:     INCBIN "gfx/trainers/pkmntrainerf.2bpp.lz"
+XatuFrontpic:        INCBIN "gfx/pokemon/xatu/front.animated.2bpp.lz"
+FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
+
+
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
