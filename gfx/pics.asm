@@ -24,8 +24,6 @@ SECTION "Pics 1", ROMX
 
 HoOhFrontpic:        INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
 MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
-NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
-FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
 RaikouFrontpic:      INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
@@ -717,6 +715,8 @@ ArcherPic:      	 INCBIN "gfx/trainers/archer.2bpp.lz"
 PkmnTrainerFPic:     INCBIN "gfx/trainers/pkmntrainerf.2bpp.lz"
 XatuFrontpic:        INCBIN "gfx/pokemon/xatu/front.animated.2bpp.lz"
 FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
+FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
+NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
 
 
 
