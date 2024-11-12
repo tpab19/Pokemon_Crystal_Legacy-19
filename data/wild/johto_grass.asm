@@ -567,11 +567,11 @@ JohtoGrassWildMons:
 	; morn
 	db 8,  CATERPIE
 	db 8,  WEEDLE
-	db 12, PARAS
+	db 12, PSYDUCK
 	db 12, ODDISH
-	db 13, PARAS
-	db 9,  METAPOD
-	db 9,  METAPOD
+	db 13, VULPIX
+	db 9,  VULPIX
+	db 9,  PSYDUCK
 	; day
 	db 8,  CATERPIE
 	db 8,  WEEDLE
@@ -586,8 +586,8 @@ JohtoGrassWildMons:
 	db 12, PARAS
 	db 12, HOOTHOOT
 	db 13, ODDISH
-	db 13, PSYDUCK
-	db 13, PSYDUCK
+	db 13, VULPIX
+	db 13, VULPIX
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1380,8 +1380,8 @@ JohtoGrassWildMons:
 	db 14, MANKEY
 	db 13, ABRA
 	db 14, SNUBBULL
-	db 13, GRIMER
-	db 14, JIGGLYPUFF
+	db 13, PONYTA
+	db 14, PONYTA
 	db 10, DITTO
 	db 10, DITTO
 	; day
