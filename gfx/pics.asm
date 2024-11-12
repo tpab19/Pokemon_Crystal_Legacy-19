@@ -490,7 +490,6 @@ WeezingBackpic:      INCBIN "gfx/pokemon/weezing/back.2bpp.lz"
 EnteiBackpic:        INCBIN "gfx/pokemon/entei/back.2bpp.lz"
 GruntfPic:           INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 HorseaFrontpic:      INCBIN "gfx/pokemon/horsea/front.animated.2bpp.lz"
-PidgeotBackpic:      INCBIN "gfx/pokemon/pidgeot/back.2bpp.lz"
 HoOhBackpic:         INCBIN "gfx/pokemon/ho_oh/back.2bpp.lz"
 PoliwhirlBackpic:    INCBIN "gfx/pokemon/poliwhirl/back.2bpp.lz"
 MewBackpic:          INCBIN "gfx/pokemon/mew/back.2bpp.lz"
@@ -717,6 +716,7 @@ FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
 MeganiumFrontpic:    INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
+PidgeotBackpic:      INCBIN "gfx/pokemon/pidgeot/back.2bpp.lz"
 
 
 
