@@ -826,7 +826,8 @@ MankeyEvosAttacks:
 	db 1, LEER
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
+	db 21, RAGE
+	db 21, MACH_PUNCH
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
 	db 39, CROSS_CHOP
@@ -837,7 +838,7 @@ MankeyEvosAttacks:
 PrimeapeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, LEER
+	db 1, MACH_PUNCH
 	db 1, LOW_KICK
 	db 1, RAGE
 	db 15, KARATE_CHOP
