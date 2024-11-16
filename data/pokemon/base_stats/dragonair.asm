@@ -1,9 +1,9 @@
 	db DRAGONAIR ; 148
 
-	db  61,  84,  65,  70,  70,  70
+	db  70,  84,  65,  91,  95,  85
 	;   hp  atk  def  spd  sat  sdf
 
-	db DRAGON, DRAGON ; type
+	db DRAGON, WATER ; type
 	db 45 ; catch rate
 	db 144 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; items

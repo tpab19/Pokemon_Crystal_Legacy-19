@@ -1,6 +1,6 @@
 	db STANTLER ; 234
 
-	db  73,  95,  62,  85,  85,  65
+	db  75,  95,  70,  85,  85,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

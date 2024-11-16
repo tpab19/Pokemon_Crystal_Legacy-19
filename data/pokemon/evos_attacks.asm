@@ -394,12 +394,12 @@ RaichuEvosAttacks:
 SandshrewEvosAttacks:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, FURY_SWIPES
+	db 1, RAPID_SPIN
+	db 1, MUD_SLAP
 	db 6, DEFENSE_CURL
-	db 9, MUD_SLAP
+	db 9, ROLLOUT
 	db 11, SAND_ATTACK
-	db 15, ROLLOUT
+	db 15, FURY_SWIPES
 	db 19, METAL_CLAW
 	db 25, SLASH
 	db 30, CUT
@@ -418,7 +418,7 @@ SandslashEvosAttacks:
 	db 19, METAL_CLAW
 	db 22, DIG
 	db 25, SLASH
-	db 30, CUT
+	db 30, RAPID_SPIN
 	db 35, SANDSTORM
 	db 40, EARTHQUAKE
 	db 48, SPIKE_CANNON
@@ -694,9 +694,9 @@ ParasectEvosAttacks:
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
 	db 24, SPORE
-	db 31, SLASH
-	db 36, GROWTH
-	db 40, GIGA_DRAIN
+	db 31, NIGHT_SHADE
+	db 35, GIGA_DRAIN
+	db 40, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
@@ -2217,10 +2217,12 @@ DragonairEvosAttacks:
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 38, AGILITY
-	db 47, SAFEGUARD
-	db 50, OUTRAGE
+	db 25, SLAM
+	db 30, DRAGONBREATH
+	db 32, SAFEGUARD
+	db 34, LIGHT_SCREEN
+	db 36, RECOVER
+    db 45, OUTRAGE
 	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -2506,12 +2508,13 @@ LedianEvosAttacks:
 	db 15, COMET_PUNCH
 	db 18, LIGHT_SCREEN
 	db 18, REFLECT
-	db 24, SAFEGUARD
+	db 20, MACH_PUNCH
+	db 22, CUT
+    db 24, SAFEGUARD
 	db 26, BATON_PASS
 	db 31, AGILITY
 	db 36, GIGA_DRAIN
-	db 42, SWIFT
-	db 50, DOUBLE_EDGE
+	db 45, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 SpinarakEvosAttacks:
@@ -2890,9 +2893,9 @@ SunfloraEvosAttacks:
 	db 15, RAZOR_LEAF
 	db 19, SUNNY_DAY
 	db 25, SYNTHESIS
-	db 31, PETAL_DANCE
-	db 36, SOLARBEAM
-	db 50, GIGA_DRAIN
+	db 31, GIGA_DRAIN
+	db 33, SOLARBEAM
+	db 35, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
@@ -3133,7 +3136,7 @@ SnubbullEvosAttacks:
 	db 4, TAIL_WHIP
 	db 8, CHARM
 	db 13, BITE
-	db 19, LICK
+	db 19, DIG
 	db 23, RAGE
 	db 28, ROAR
 	db 39, CRUNCH
@@ -3147,7 +3150,7 @@ GranbullEvosAttacks:
 	db 4, TAIL_WHIP
 	db 8, CHARM
 	db 13, BITE
-	db 19, LICK
+	db 19, DIG
 	db 23, RAGE
 	db 28, ROAR
 	db 30, TAKE_DOWN
@@ -3467,9 +3470,9 @@ DonphanEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 14, MAGNITUDE
 	db 17, FLAIL
-	db 25, FURY_ATTACK
+	db 25, RAPID_SPIN
 	db 33, ROCK_SLIDE
-	db 36, RAPID_SPIN
+	db 36, BODY_SLAM
 	db 40, EARTHQUAKE
 	db 48, DOUBLE_EDGE
 	db 0 ; no more level-up moves
