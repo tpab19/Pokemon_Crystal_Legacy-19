@@ -1760,7 +1760,7 @@ RapidSpin:
 	criticaltext
 	supereffectivetext
 	clearhazards
-	SpeedUp
+	speedup
 	statupmessage
 	checkfaint
 	buildopponentrage
