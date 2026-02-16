@@ -628,17 +628,6 @@ WeedleBackpic:       INCBIN "gfx/pokemon/weedle/back.2bpp.lz"
 UnownHFrontpic:      INCBIN "gfx/pokemon/unown_h/front.animated.2bpp.lz"
 CleffaBackpic:       INCBIN "gfx/pokemon/cleffa/back.2bpp.lz"
 DrowzeeBackpic:      INCBIN "gfx/pokemon/drowzee/back.2bpp.lz"
-GastlyBackpic:       INCBIN "gfx/pokemon/gastly/back.2bpp.lz"
-FearowBackpic:       INCBIN "gfx/pokemon/fearow/back.2bpp.lz"
-MarillBackpic:       INCBIN "gfx/pokemon/marill/back.2bpp.lz"
-DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
-ElectrodeBackpic:    INCBIN "gfx/pokemon/electrode/back.2bpp.lz"
-SkarmoryBackpic:     INCBIN "gfx/pokemon/skarmory/back.2bpp.lz"
-MetapodBackpic:      INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
-JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
-OddishBackpic:       INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
-UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
-
 
 SECTION "Pics 18", ROMX
 
@@ -717,6 +706,16 @@ FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
 MeganiumFrontpic:    INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
 PidgeotBackpic:      INCBIN "gfx/pokemon/pidgeot/back.2bpp.lz"
+GastlyBackpic:       INCBIN "gfx/pokemon/gastly/back.2bpp.lz"
+FearowBackpic:       INCBIN "gfx/pokemon/fearow/back.2bpp.lz"
+MarillBackpic:       INCBIN "gfx/pokemon/marill/back.2bpp.lz"
+DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
+ElectrodeBackpic:    INCBIN "gfx/pokemon/electrode/back.2bpp.lz"
+SkarmoryBackpic:     INCBIN "gfx/pokemon/skarmory/back.2bpp.lz"
+MetapodBackpic:      INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
+JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
+OddishBackpic:       INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
+UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 
 
 
