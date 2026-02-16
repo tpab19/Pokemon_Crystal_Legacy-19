@@ -1,6 +1,6 @@
 	db RAPIDASH ; 078
 
-	db  75, 100,  70, 115,  95,  80
+	db  75, 100,  65, 115,  95,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, NORMAL ; type
