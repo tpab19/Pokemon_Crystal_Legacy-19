@@ -40,10 +40,10 @@ Moves:
 	move MEGA_KICK,    EFFECT_NORMAL_HIT,        120, NORMAL,        85, 10,   0
 	move JUMP_KICK,    EFFECT_JUMP_KICK,          90, FIGHTING,      95, 25,   0
 	move ROLLING_KICK, EFFECT_FLINCH_HIT,         60, FIGHTING,     100, 15,  30
-	move SAND_ATTACK,  EFFECT_ACCURACY_DOWN,       0, GROUND,       100, 15,   0
+	move SAND_ATTACK,  EFFECT_ACCURACY_DOWN_HIT,  15, GROUND,       100, 15, 100
 	move HEADBUTT,     EFFECT_FLINCH_HIT,         70, NORMAL,       100, 15,  30
 	move HORN_ATTACK,  EFFECT_NORMAL_HIT,         65, NORMAL,       100, 25,   0
-	move FURY_ATTACK,  EFFECT_MULTI_HIT,          18, NORMAL,       100, 20,   0
+	move FURY_ATTACK,  EFFECT_MULTI_HIT,          18, FLYING,       100, 20,   0
 	move HORN_DRILL,   EFFECT_OHKO,                1, NORMAL,        30,  5,   0
 	move TACKLE,       EFFECT_NORMAL_HIT,         35, NORMAL,       100, 35,   0
 	move BODY_SLAM,    EFFECT_PARALYZE_HIT,       85, NORMAL,       100, 15,  30
