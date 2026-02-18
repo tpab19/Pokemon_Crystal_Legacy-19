@@ -27,6 +27,7 @@ DoSleep:
 	usedmovetext
 	doturn
 	checkhit
+	checkpowder
 	checksafeguard
 	sleeptarget
 	endmove
@@ -1040,6 +1041,7 @@ DoPoison:
 	usedmovetext
 	doturn
 	checkhit
+	checkpowder
 	stab
 	checksafeguard
 	poison
@@ -1051,6 +1053,7 @@ DoParalyze:
 	doturn
 	stab
 	checkhit
+	checkpowder
 	checksafeguard
 	paralyze
 	endmove

@@ -3716,17 +3716,11 @@ BattleCommand_SleepTarget:
 	jr nz, .fail
 
 	call AnimateCurrentMove
-	ld b, SLP
-	ld a, [wInBattleTowerBattle]
-	and a
-	jr z, .random_loop
 	ld b, %011
 
 .random_loop
 	call BattleRandom
 	and b
-	jr z, .random_loop
-	cp SLP
 	jr z, .random_loop
 	inc a
 	ld [de], a
@@ -6882,4 +6876,33 @@ _CheckBattleScene:
 	pop bc
 	pop de
 	pop hl
+	ret
+
+BattleCommand_CheckPowder:
+; Checks if the move is powder/spore-based and 
+; if the opponent is Grass-type
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	ld hl, PowderMoves
+	call IsInByteArray
+	ret nc
+
+; If the opponent is Grass-type, the move fails.
+	ld hl, wEnemyMonType1
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .CheckGrassType
+	ld hl, wBattleMonType1
+
+.CheckGrassType:
+	ld a, [hli]
+	cp GRASS
+	jr z, .Immune
+	ld a, [hl]
+	cp GRASS
+	ret nz
+	;fallthrough
+.Immune:
+	ld a, 1
+	ld [wAttackMissed], a
 	ret
