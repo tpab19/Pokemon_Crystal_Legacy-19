@@ -92,7 +92,7 @@ Moves:
 	move POISONPOWDER, EFFECT_POISON,              0, POISON,        90, 35,   0
 	move STUN_SPORE,   EFFECT_PARALYZE,            0, GRASS,         75, 30,   0
 	move SLEEP_POWDER, EFFECT_SLEEP,               0, GRASS,         75, 15,   0
-	move PETAL_DANCE,  EFFECT_NORMAL_HIT,        120, GRASS,         90, 20,   0
+	move PETAL_DANCE,  EFFECT_NORMAL_HIT,        100, GRASS,         90, 20,   0
 	move STRING_SHOT,  EFFECT_SPEED_DOWN,          0, BUG,           95, 40,   0
 	move DRAGON_RAGE,  EFFECT_STATIC_DAMAGE,      40, DRAGON,       100, 20,   0
 	move FIRE_SPIN,    EFFECT_TRAP_TARGET,        35, FIRE,         100, 15,   0
@@ -135,7 +135,7 @@ Moves:
 	move SELFDESTRUCT, EFFECT_SELFDESTRUCT,      180, NORMAL,       100,  5,   0
 	move EGG_BOMB,     EFFECT_NORMAL_HIT,        100, GRASS,        100, 10,   0
 	move LICK,         EFFECT_PARALYZE_HIT,       30, GHOST,        100, 30,  30
-	move SMOG,         EFFECT_POISON_HIT,         25, POISON,       100, 20,  40
+	move SMOG,         EFFECT_POISON_HIT,         40, POISON,       100, 20,  40
 	move SLUDGE,       EFFECT_POISON_HIT,         65, POISON,       100, 20,  30
 	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,       100, 20,  10
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,          85,  5,  10
