@@ -628,7 +628,7 @@ GolbatEvosAttacks:
 OddishEvosAttacks:
 	db EVOLVE_LEVEL, 20, GLOOM
 	db 0 ; no more evolutions
-	db 1, ABSORB
+	db 1, BULLET_SEED
 	db 7, SWEET_SCENT
 	db 11, POISONPOWDER
 	db 14, STUN_SPORE
@@ -2808,7 +2808,7 @@ HoppipEvosAttacks:
 	db 3, TACKLE
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
-	db 7, ABSORB
+	db 7, BULLET_SEED
 	db 10, STUN_SPORE
 	db 17, SLEEP_POWDER
 	db 19, MEGA_DRAIN
@@ -2871,7 +2871,7 @@ AipomEvosAttacks:
 SunkernEvosAttacks:
 	db EVOLVE_ITEM, SUN_STONE, SUNFLORA
 	db 0 ; no more evolutions
-	db 1, ABSORB
+	db 1, BULLET_SEED
 	db 4, GROWTH
 	db 8, LEECH_SEED
 	db 10, MEGA_DRAIN
