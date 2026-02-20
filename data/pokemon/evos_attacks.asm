@@ -872,7 +872,8 @@ ArcanineEvosAttacks:
 	db 1, TAKE_DOWN
 	db 1, BITE
 	db 20, ROAR
-	db 45, FLAMETHROWER
+	db 43, FLAMETHROWER
+	db 46, TWISTER
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 
@@ -1925,7 +1926,7 @@ TaurosEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
-	db EVOLVE_LEVEL, 20, GYARADOS
+	db EVOLVE_LEVEL, 30, GYARADOS
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 15, TACKLE
@@ -1936,10 +1937,9 @@ GyaradosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
-	db 20, BITE
-	db 20, GUST
-	db 22, LEER
-	db 25, DRAGON_RAGE
+	db 30, BITE
+	db 30, GUST
+	db 30, DRAGON_RAGE
 	db 30, THRASH
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
