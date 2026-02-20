@@ -2806,10 +2806,9 @@ HoppipEvosAttacks:
 	db 1, SPLASH
 	db 1, GUST
 	db 3, TACKLE
-	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
 	db 7, BULLET_SEED
-	db 10, STUN_SPORE
+	db 12, STUN_SPORE
 	db 17, SLEEP_POWDER
 	db 19, MEGA_DRAIN
 	db 21, LEECH_SEED
