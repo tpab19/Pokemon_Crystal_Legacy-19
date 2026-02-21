@@ -230,8 +230,9 @@ BeedrillEvosAttacks:
 	db 12, FOCUS_ENERGY
 	db 15, TWINEEDLE
 	db 18, PURSUIT
+	db 27, SLUDGE
 	db 30, SWORDS_DANCE
-	db 40, AGILITY
+	db 34, AGILITY
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
@@ -1144,7 +1145,6 @@ PonytaEvosAttacks:
 	db 17, STOMP
 	db 20, FLAME_WHEEL
 	db 25, DOUBLE_KICK
-	db 33, FLAMETHROWER
 	db 33, TAKE_DOWN
 	db 39, FIRE_SPIN
 	db 45, AGILITY
@@ -1164,8 +1164,7 @@ RapidashEvosAttacks:
 	db 36, FLAMETHROWER
 	db 39, EXTREMESPEED
 	db 40, MEGAHORN
-	db 45, AGILITY
-	db 50, BATON_PASS
+	db 45, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -3203,7 +3202,7 @@ ShuckleEvosAttacks:
 	db 23, SAFEGUARD
 	db 27, SANDSTORM
 	db 31, ACID_ARMOR
-	db 34, BIDE
+	db 34, LEECH_SEED
 	db 37, REST
 	db 40, PROTECT
 	db 0 ; no more level-up moves
