@@ -54,6 +54,11 @@ AI_Basic:
 	and a
 	jr nz, .discourage
 
+;Dismiss status moves if the player has a subsitute.
+	ld a, [wPlayerSubStatus4] 
+	bit SUBSTATUS_SUBSTITUTE, a
+	jr nz, .discourage
+
 ; Dismiss Safeguard if it's already active.
 	ld a, [wPlayerScreens]
 	bit SCREENS_SAFEGUARD, a
@@ -3113,7 +3118,7 @@ AI_Cautious:
 
 	call Random
 	cp 90 percent + 1
-	ret nc
+	jr nc, .loop
 
 	inc [hl]
 	jr .loop
@@ -3165,8 +3170,8 @@ AI_Status:
 	jr z, .poisonimmunity
 	cp EFFECT_POISON
 	jr z, .poisonimmunity
-	cp EFFECT_SLEEP
-	jr z, .typeimmunity
+	cp EFFECT_LEECH_SEED
+	jr z, .leechseedimmunity
 	cp EFFECT_PARALYZE
 	jr z, .typeimmunity
 
@@ -3182,6 +3187,15 @@ AI_Status:
 	jr z, .immune
 	ld a, [wBattleMonType2]
 	cp POISON
+	jr z, .immune
+	jr .typeimmunity
+	
+.leechseedimmunity
+	ld a, [wBattleMonType1]
+	cp GRASS
+	jr z, .immune
+	ld a, [wBattleMonType2]
+	cp GRASS
 	jr z, .immune
 
 .typeimmunity
